@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/images/trees.jpg);
+  background-size: cover;
+  margin-left: 100px;
+  margin-top: 0px;
+}
+
+
+.treeicon {
+  margin-left: 40px;
+  position: relative;
+  margin-top: -60px;
+}
+
+.title {
+  color: white;
+}
+.container {
+  height: 2150px;
+  margin-top: 0px;
+ 
+  padding-top: 90px;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.396);
+  width: 92%;
+  border-radius: 10px;
+}
+
+input.inputbox {
+  background-color: white;
+  width: 97%;
+  height: 45px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.personalinfo {
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 56px;
+}
+h5 {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#continent {
+  width: 97%;
+  height: 45px;
+  border-radius: 5px;
+}
+select {
+  padding-left: 10px;
+  font-size: 18px;
+}
+.gender-title{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+.gender-selection{
+    color: white;
+    font-size: 20px;
+
+}
+input.gender{
+    text-align: left;
+    margin-top: 40px;
+    margin-right: 10px; 
+    margin-left: 20px
+}
+.options{
+    color: white;
+    margin-top: 40px;
+    word-spacing: 5px;
+}
+.option{
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+.message-title{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+textarea{
+  padding: 15px;
+
+}
+.message-box{
+  text-align: center;
+}
+textarea:placeholder-shown {
+  font-size: 2em;
+  
+}
+label{
+  font-size: 30px;
+
+}
+
+input#button{
+  
+  background-color: darkgreen;
+  color: white;
+  width: 800px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto;
+}
+.button{
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+ 
+}
+/*Tablet*/
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%; }
+  
+}
+/*tabled*/
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin: 0; border: none; }
+}

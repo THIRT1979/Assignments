@@ -1,0 +1,105 @@
+*{
+    background-color: white;
+    margin:10px
+}
+
+html {
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0px 50px 0px 50px;
+  background-color: lightgray;
+  text-align: left;
+}
+.hr1{
+    margin-bottom:20px
+}
+
+
+
+.title{
+text-align: center;
+}
+
+.photo-girl{
+   text-align: center;
+}
+hr{
+    border: 1px solid green;
+    margin: 0;
+    
+}
+.photo-comp{
+    background-image: url(/images/scott-graham-5fNmWej4tAA-unsplash.jpg);
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+ margin: auto;
+ 
+}
+.para1{
+    margin-top: 30px
+}
+video{
+    width: 700px;
+    height: 500px;
+  
+}
+.youtube{
+    margin-left: 20%
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+li{
+    margin-left: 0px;
+    line-height: 1em;
+    margin-top: 20px;
+   
+    
+}
+h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 2px;
+}
+a{
+    color: rgb(17, 184, 240);
+}
+p{
+   
+    margin-bottom: 20px
+
+}
+
+a:hover {
+    color: red;
+
+}
+.lastpara{
+    margin-top: 30px;
+}
+.footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.hr2{
+    margin: 0;
+}
+.copyright{
+    margin-top: 0;
+}
+/*Tablet*/
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%; }
+  
+}
+/*tabled*/
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin: 0; border: none; }
+}
